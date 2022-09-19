@@ -12,6 +12,7 @@ To use, simply ensure the following Ruby gems are installed:
 - sqlite3
 - active_support
 - fileutils
+
 Then run the script. Example usage: `ruby refresh_spot_data.rb >> logs/refresh_spot_data.log`
 
 The script can be set to run periodically through a scheduler such as *cron*
